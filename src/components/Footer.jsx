@@ -16,7 +16,6 @@ const Footer = () => {
           <div className="footer-contact">
             <h3>Contact Me</h3>
             <p>Hyderabad, Telangana, 500087</p>
-            <p>+91 8500035012</p>
             <a href="mailto:vookakavyasuma4@gmail.com" className="contact-link">vookakavyasuma4@gmail.com</a>
           </div>
           <div className="footer-socials">

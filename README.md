@@ -14,8 +14,8 @@ I am a second-year B.Tech student in Computer Science and Engineering, passionat
 ## 🛠️ Tech Stack & Skills
 - **Languages:** Java, Python, C, JavaScript
 - **Web Technologies:** React.js, Node.js, Express.js, HTML, CSS
-- **Databases:** MongoDB
-- **Concepts:** Data Structures & Algorithms, Agentic AI, Generative AI
+- **Databases:** MongoDB, SQL
+- **Concepts:** Data Structures & Algorithms, Agentic AI, Generative AI, OOPS
 
 ## 📂 Featured Projects
 * **MediVault.AI** * A full-stack application built on the MERN stack designed for secure and efficient medical data management.

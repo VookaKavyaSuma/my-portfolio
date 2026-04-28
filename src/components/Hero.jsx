@@ -10,7 +10,7 @@ const Hero = () => {
           <p className="hero-greeting">Hello, I'm</p>
           <h1 className="hero-name">Vooka Kavya Suma</h1>
           <h2 className="hero-title">
-            <span className="gradient-text">Software Engineering Intern</span>
+            <span className="gradient-text">Software Engineer | CSE Undergraduate</span>
           </h2>
           <p className="hero-description">
             Computer Science undergraduate with experience in full-stack development,
@@ -19,6 +19,9 @@ const Hero = () => {
           <div className="hero-buttons">
             <a href="#projects" className="btn btn-primary">
               View My Work <ArrowRight size={18} />
+            </a>
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+              <Download size={18} /> Resume
             </a>
             <a href="#contact" className="btn btn-outline">
               Contact Me

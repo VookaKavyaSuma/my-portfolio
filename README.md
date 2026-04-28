@@ -9,7 +9,7 @@ I am a second-year B.Tech student in Computer Science and Engineering, passionat
 - 💡 Focused on software development, specifically full-stack engineering and AI integration.
 - 🔬 Deeply interested in researching Agentic AI frameworks for code generation and verification.
 - 🤝 Enthusiastic about hackathons, collaborative projects, and taking the initiative to drive team success.
-- 📫 How to reach me: **[Your Email Address Here]** | **[LinkedIn Profile Link]**
+- 📫 How to reach me: **vookakavyasuma4@gmail.com** | **www.linkedin.com/in/kavyasumavooka**
 
 ## 🛠️ Tech Stack & Skills
 - **Languages:** Java, Python, C, JavaScript

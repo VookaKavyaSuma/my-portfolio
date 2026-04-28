@@ -1,8 +1,6 @@
 .about-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .about-text p {
@@ -17,10 +15,11 @@
   margin-top: 2rem;
   padding-top: 2rem;
   border-top: 1px solid var(--card-border);
+  justify-content: center;
 }
 
 .stat-item h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 0.2rem;
 }
 
@@ -28,36 +27,6 @@
   font-size: 0.9rem;
   color: #a3a3a3;
   margin-bottom: 0;
-}
-
-.about-cards {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.feature-card {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  padding: 1.5rem;
-}
-
-.feature-icon {
-  color: var(--accent-secondary);
-  margin-bottom: 0.5rem;
-  width: 32px;
-  height: 32px;
-}
-
-.feature-card h3 {
-  font-size: 1.2rem;
-  margin-bottom: 0.2rem;
-}
-
-.feature-card p {
-  color: #a3a3a3;
-  font-size: 0.95rem;
 }
 
 @media (max-width: 992px) {

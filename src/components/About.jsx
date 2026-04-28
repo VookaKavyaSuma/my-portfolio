@@ -1,5 +1,4 @@
 import React from 'react';
-import { FiTerminal as Terminal, FiDatabase as Database, FiLayout as Layout } from 'react-icons/fi';
 import './About.css';
 
 const About = () => {
@@ -31,23 +30,6 @@ const About = () => {
               </div>
             </div>
           </div>
-          
-          <div className="about-cards">
-            <div className="feature-card glass-panel">
-              <Layout className="feature-icon" />
-              <h3>Frontend</h3>
-              <p>React.js, HTML, CSS, JavaScript, Bootstrap</p>
-            </div>
-            <div className="feature-card glass-panel">
-              <Terminal className="feature-icon" />
-              <h3>Backend</h3>
-              <p>Node.js, Express.js, REST APIs, Python, Java</p>
-            </div>
-            <div className="feature-card glass-panel">
-              <Database className="feature-icon" />
-              <h3>Database</h3>
-              <p>MongoDB, SQL, JWT Authentication</p>
-            </div>
           </div>
         </div>
       </div>

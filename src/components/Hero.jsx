@@ -20,7 +20,7 @@ const Hero = () => {
             <a href="#projects" className="btn btn-primary">
               View My Work <ArrowRight size={18} />
             </a>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+            <a href="/vooka-kavya-suma-resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
               <Download size={18} /> Resume
             </a>
             <a href="#contact" className="btn btn-outline">

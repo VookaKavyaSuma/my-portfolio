@@ -40,10 +40,10 @@ const Education = () => {
       <div className="container">
         <div className="education-grid">
           <div>
-            <h2 className="section-title align-left">Education</h2>
+            <h2 className="section-title align-left reveal">Education</h2>
             <div className="timeline">
               {education.map((edu, index) => (
-                <div key={index} className="timeline-item">
+                <div key={index} className={`timeline-item reveal delay-${(index % 3) + 1}`}>
                   <div className="timeline-icon">
                     <GraduationCap size={20} />
                   </div>
@@ -61,8 +61,8 @@ const Education = () => {
           </div>
           
           <div>
-            <h2 className="section-title align-left">Achievements & Certifications</h2>
-            <div className="achievements-list glass-panel">
+            <h2 className="section-title align-left reveal">Achievements & Certifications</h2>
+            <div className="achievements-list glass-panel reveal delay-2">
               {achievements.map((item, index) => (
                 <div key={index} className="achievement-item">
                   <Award className="achievement-icon" size={20} />

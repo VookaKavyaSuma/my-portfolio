@@ -5,10 +5,10 @@ const About = () => {
   return (
     <section id="about" className="section">
       <div className="container">
-        <h2 className="section-title">About Me</h2>
+        <h2 className="section-title reveal">About Me</h2>
 
         <div className="about-content">
-          <div className="about-text glass-panel">
+          <div className="about-text glass-panel reveal delay-1">
             <p>
               I am a passionate Computer Science undergraduate with a CGPA of 9.48, currently studying at Anurag University, Hyderabad. I specialize in full-stack development, RESTful APIs, and AI-driven applications using the MERN stack.
             </p>

@@ -15,10 +15,10 @@ const Skills = () => {
   return (
     <section id="skills" className="section">
       <div className="container">
-        <h2 className="section-title">Technical Skills</h2>
+        <h2 className="section-title reveal">Technical Skills</h2>
         <div className="skills-grid">
           {skills.map((skillGroup, index) => (
-            <div key={index} className="skill-card glass-panel">
+            <div key={index} className={`skill-card glass-panel reveal delay-${(index % 3) + 1}`}>
               <h3 className="skill-category">{skillGroup.category}</h3>
               <div className="skill-tags">
                 {skillGroup.items.map((item, i) => (

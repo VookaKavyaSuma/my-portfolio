@@ -37,10 +37,10 @@ const Projects = () => {
   return (
     <section id="projects" className="section">
       <div className="container">
-        <h2 className="section-title">Featured Projects</h2>
+        <h2 className="section-title reveal">Featured Projects</h2>
         <div className="projects-grid">
           {projects.map((project, index) => (
-            <div key={index} className="project-card glass-panel">
+            <div key={index} className={`project-card glass-panel reveal delay-${(index % 3) + 1}`}>
               <div className="project-content">
                 <h3 className="project-title gradient-text">{project.title}</h3>
                 <p className="project-description">{project.description}</p>
